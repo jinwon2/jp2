@@ -18,7 +18,7 @@ if(session.getAttribute("login")!=null){
  비밀번호 : <input type="password" name ="pwd" id="pwd"><br>
  </form>
  <%
- }else if(login.equals("true")){
+ }else if(login.equals("true")){ 
  out.println(session.getAttribute("id")+"님 환영합니다.");
  }
 %>
