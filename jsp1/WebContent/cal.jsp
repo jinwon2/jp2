@@ -38,7 +38,6 @@ for(String str : list){
 	out.println(str + "<br>");
 }
 out.write(num1 + " " + op + " " + num2 +"=" + result);
-
 %>
 </body>
 </html>
